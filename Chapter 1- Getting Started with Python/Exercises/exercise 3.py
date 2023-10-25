@@ -1,0 +1,26 @@
+name =input ("Enter Name: ")
+username =input ("Enter Username: ")
+password = input ("Enter your Password: ")
+birthday = input ("Birthdate: ")
+birthplace = input ("Place of Birth: ")
+gender = input ("Gender: ")
+university = input ("University Name: ")
+course = input ("Course Chosen: ")
+group = input ("Group Section: ")
+subject = input ("Current Subject: ")
+
+print (name)
+print (username)
+print (password)
+print (birthday)
+print (birthplace)
+print (gender)
+print (university)
+print (course)
+print (group)
+print (subject)
+
+from datetime import date
+
+today = date.today()
+print("Today's date:", today)

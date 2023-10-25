@@ -21,3 +21,10 @@ print(752*27)
 
 print ((2*5/7+(27+5)))
 print (int (ans))
+
+import sys
+print("Python version")
+print (sys.version)
+
+print("Version info.")
+print (sys.version_info)
